@@ -123,7 +123,7 @@
 
 // Optional custom name for your RepStrap or other custom machine
 // Displayed in the LCD "Ready" message
-//#define CUSTOM_MACHINE_NAME "3D Printer"
+#define CUSTOM_MACHINE_NAME "Image Plotter"
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
@@ -727,8 +727,8 @@
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS 130
-#define Y_MAX_POS 160
+#define X_MAX_POS 155
+#define Y_MAX_POS 130
 #define Z_MAX_POS 10
 
 // If enabled, axes won't move below MIN_POS in response to movement commands.
@@ -1159,7 +1159,7 @@
  * IMPORTANT: The U8glib library is required for Full Graphic Display!
  *            https://github.com/olikraus/U8glib_Arduino
  */
-//#define ULTRA_LCD   // Character based
+#define ULTRA_LCD   // Character based
 //#define DOGLCD      // Full graphics display
 
 /**
@@ -1169,7 +1169,7 @@
  * you must uncomment the following option or it won't work.
  *
  */
-//#define SDSUPPORT
+#define SDSUPPORT 
 
 /**
  * SD CARD: SPI SPEED
@@ -1186,7 +1186,7 @@
  *
  * Use CRC checks and retries on the SD communication.
  */
-//#define SD_CHECK_AND_RETRY
+#define SD_CHECK_AND_RETRY
 
 //
 // ENCODER SETTINGS
@@ -1240,7 +1240,7 @@
 // If you have a speaker that can produce tones, enable it here.
 // By default Marlin assumes you have a buzzer with a fixed frequency.
 //
-//#define SPEAKER
+#define SPEAKER
 
 //
 // The duration and frequency for the UI feedback sound.
@@ -1268,7 +1268,7 @@
 // ULTIPANEL as seen on Thingiverse.
 //
 //#define ULTIPANEL
-
+//#define NEWPANEL
 //
 // Cartesio UI
 // http://mauk.cc/webshop/cartesio-shop/electronics/user-interface
@@ -1313,8 +1313,8 @@
 //
 // Note: Usually sold with a white PCB.
 //
-//#define REPRAP_DISCOUNT_SMART_CONTROLLER
-
+#define REPRAP_DISCOUNT_SMART_CONTROLLER
+#define NEWPANEL
 //
 // GADGETS3D G3D LCD/SD Controller
 // http://reprap.org/wiki/RAMPS_1.3/1.4_GADGETS3D_Shield_with_Panel
